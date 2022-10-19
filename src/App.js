@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Parent from "./components/Parent";
 
 function App() {
   let [text, setText] = useState('');
@@ -28,6 +29,7 @@ function App() {
         <div className="btn btn-primary" onClick={removeSymbols}>Remove Symbols</div>
       </div>
       </div>
+      <Parent/>
     </div>
   );
 
